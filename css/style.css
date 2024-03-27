@@ -352,6 +352,7 @@ body:has(.header__burger:focus-within) {
   gap: 32px;
   width: 300px;
   padding: 16px 32px;
+  will-change: transform;
 }
 
 .sidebar__item {
@@ -373,7 +374,7 @@ body:has(.header__burger:focus-within) {
 
 .sidebar-item__btn {
   width: 100%;
-  height: 32px;
+  min-height: 32px;
   background-color: #ccc;
   border: 1px solid #000;
   border-radius: 3px;
